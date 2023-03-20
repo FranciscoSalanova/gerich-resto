@@ -5,9 +5,9 @@ import Navbar from './Navbar/Navbar.jsx'
 import SubHeading from './SubHeading/SubHeading.jsx'
 
 export {
-    FooterOverlay,
-    Newsletter,
-    MenuItem,
-    Navbar,
-    SubHeading
+  FooterOverlay,
+  Newsletter,
+  MenuItem,
+  Navbar,
+  SubHeading
 }

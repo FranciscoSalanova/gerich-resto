@@ -9,13 +9,13 @@ import Laurels from './Laurels/Laurels.jsx'
 import SpeacialMenu from './Menu/SpeacialMenu.jsx'
 
 export {
-    AboutUs,
-    Chef,
-    FindUs,
-    Footer,
-    Gallery,
-    Header,
-    Intro,
-    Laurels,
-    SpeacialMenu
+  AboutUs,
+  Chef,
+  FindUs,
+  Footer,
+  Gallery,
+  Header,
+  Intro,
+  Laurels,
+  SpeacialMenu
 }
