@@ -7,7 +7,7 @@ import './Navbar.css'
 const Menu = () => (
   <>
     <li className='p__opensans'><a href='#home'>Home</a></li>
-    <li className='p__opensans'><a href='#pages'>Pages</a></li>
+    <li className='p__opensans'><a href='#about'>About Us</a></li>
     <li className='p__opensans'><a href='#contactus'>Contact Us</a></li>
     <li className='p__opensans'><a href='#blog'>Blog</a></li>
     <li className='p__opensans'><a href='#landing'>Landing</a></li>

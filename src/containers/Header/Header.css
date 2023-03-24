@@ -7,8 +7,8 @@
     color: var(--color-golden);
     letter-spacing: 0.04em;
     font-weight: 700;
-    font-size: 70px;
-    line-height: 90px;
+    font-size: 90px;
+    line-height: 130%;
     text-transform: capitalize;
 }
 
