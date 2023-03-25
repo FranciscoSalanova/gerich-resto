@@ -43,7 +43,7 @@
 }
 
 .section__padding {
-    padding: 4rem 3rem 4rem 1.5rem
+    padding: 3rem 15rem;
 }
 
 .app__wrapper {
@@ -114,6 +114,12 @@
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+@media screen and (max-width: 2560px) {
+    .section__padding {
+        padding: 4rem 3rem 4rem 1.5rem
+    }
 }
 
 @media screen and (max-width: 1024px) {

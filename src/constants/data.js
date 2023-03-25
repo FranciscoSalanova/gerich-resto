@@ -30,7 +30,7 @@ const wines = [
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'Aperol Spritz',
     price: '$20',
     tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml'
   },
