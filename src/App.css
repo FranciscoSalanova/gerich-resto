@@ -123,12 +123,8 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .app__wrapper {
-        flex-direction: column;
-    }
-
     .app__wrapper_img {
-        margin: 5rem 0 0 1.5rem;
+        margin: 3rem 0 3rem 2rem;
     }
 
     .app__wrapper_img-reverse {
@@ -136,12 +132,14 @@
     }
 
     .app__wrapper_img img {
-        width: 100%;
+        width: 90%;
     }
-}
 
-@media screen and (max-width: 425px) {
     .app__wrapper_hashtags {
         display: none;
     }
+}
+
+@media screen and (max-width: 768px) {
+    
 }
