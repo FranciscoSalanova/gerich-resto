@@ -6,9 +6,9 @@ import './Navbar.css'
 
 const Menu = () => (
   <>
-    <li className='p__opensans'><a href='#home'>Home</a></li>
     <li className='p__opensans'><a href='#about'>About Us</a></li>
     <li className='p__opensans'><a href='#menu'>Menu</a></li>
+    <li className='p__opensans'><a href='#chef'>Chef's Word</a></li>
     <li className='p__opensans'><a href='#contactus'>Contact Us</a></li>
     <li className='p__opensans'><a href='#blog'>Blog</a></li>
     <li className='p__opensans'><a href='#landing'>Landing</a></li>
@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        <img src={images.gericht} alt='app logo' />
+        <a href='#home'><img src={images.gericht} alt='app logo' /></a>
       </div>
       <ul className='app__navbar-links'>
         <Menu />
