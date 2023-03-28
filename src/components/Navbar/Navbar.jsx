@@ -9,6 +9,7 @@ const Menu = () => (
     <li className='p__opensans'><a href='#about'>About Us</a></li>
     <li className='p__opensans'><a href='#menu'>Menu</a></li>
     <li className='p__opensans'><a href='#chef'>Chef's Word</a></li>
+    <li className='p__opensans'><a href='#awards'>Awards</a></li>
     <li className='p__opensans'><a href='#contactus'>Contact Us</a></li>
     <li className='p__opensans'><a href='#blog'>Blog</a></li>
     <li className='p__opensans'><a href='#landing'>Landing</a></li>
