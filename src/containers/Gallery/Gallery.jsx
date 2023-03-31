@@ -19,15 +19,15 @@ const Gallery = () => {
   const scroll = (direction) => {
     const { current } = scrollRef
     if (direction === 'left') {
-      current.scrollRef -= 300
+      current.scrollLeft -= 300
     } else {
-      current.scrollRef += 300
+      current.scrollLeft += 300
     }
   }
 
   return (
-    <div className='app_gallery flex__center'>
-      <div className='app_gallery-content'>
+    <div className='app__gallery flex__center'>
+      <div className='app__gallery-content'>
         <SubHeading title='Instagram' />
         <h1 className='headtext__cormorant'>Photo Gallery</h1>
         <p className='p__opensans' style={{ color: '#AAAAAA' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
