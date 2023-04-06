@@ -1,8 +1,15 @@
 import React from 'react'
 
+import FooterOverlay from '../../components/Footer/FooterOverlay'
+import Newsletter from '../../components/Footer/Newsletter'
+import './Footer.css'
+
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='app__footer section__padding'>
+      <FooterOverlay />
+      <Newsletter />
+    </div>
   )
 }
 
