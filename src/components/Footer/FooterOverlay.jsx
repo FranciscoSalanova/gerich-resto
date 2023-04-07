@@ -6,7 +6,7 @@ const FooterOverlay = () => {
   return (
     <div className='app__footerOverlay'>
       <div className='app__footerOverlay-black'>A</div>
-      <div className='app__footerOverlay-img app__bg'>B</div>
+      <div className='app__footerOverlay-img'>B</div>
     </div>
   )
 }
